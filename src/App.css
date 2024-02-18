@@ -1,0 +1,103 @@
+.App {
+    background-color: #000;
+    color: #fff;
+}
+
+.top-block {
+    background-image: url("assets/imgs/earth2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 16px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    text-transform: uppercase;
+}
+
+.menu-list {
+    display: flex;
+    gap: 16px;
+}
+
+.menu-item {
+    list-style-type: none;
+}
+
+.title {
+    position: absolute;
+    top: 31%;
+    width: 50%;
+}
+
+.buttons-wrapper {
+    display: flex;
+    gap: 8px;
+}
+
+button {
+    padding: 10px;
+    width: 120px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.primary-btn {
+    background-color: #fff;
+}
+
+.secondary-btn {
+    background-color: #000;
+    color: #fff;
+    border: 1px solid #858585;
+}
+
+.stars img {
+    position: absolute;
+    width: 100px;
+}
+
+.star-1 {
+    top: 10%;
+    right: 20%;
+    transform: rotate(64deg);
+}
+
+.star-2 {
+    top: 45%;
+    left: 20%;
+    transform: rotate(64deg);
+}
+
+.star-3 {
+    top: 46%;
+    left: 66%;
+    transform: rotate(64deg);
+}
+
+.star-4 {
+    top: 23%;
+    left: 40%;
+    transform: rotate(64deg);
+}
+
+.star-5 {
+    transform: rotate(64deg);
+}
+
+.planet img {
+    position: absolute;
+    opacity: 0.6;
+    width: 200px;
+    bottom: 2px;
+}
